@@ -1,0 +1,36 @@
+---
+title: Startseite
+description: Lernmaterialien für den Leistungskurs Chemie Sachsen, Klasse 12
+---
+
+# LK Chemie Sachsen — Klasse 12
+
+Willkommen auf deiner persönlichen Lernseite für den **Leistungskurs Chemie** am Gymnasium in Sachsen.
+
+## Themenbereiche
+
+| Thema | Inhalt |
+|---|---|
+| [Organische Chemie / Naturstoffe](/docs/organische-chemie) | Kohlenhydrate, Proteine, Fette, Nucleinsäuren |
+| [Elektrochemie](/docs/elektrochemie) | Galvanische Elemente, Elektrolyse, Batterien, Korrosion |
+| [Säure-Base-Chemie](/docs/saeure-base) | Brønsted-Theorie, pH-Wert, Puffer, Titration |
+| [Chemisches Gleichgewicht](/docs/gleichgewicht) | Massenwirkungsgesetz, Le Chatelier, Löslichkeitsprodukt |
+
+## Animationen einbinden
+
+Animationen können aus [LottieFiles](https://lottiefiles.com) (kostenlos) heruntergeladen
+und als `.lottie`-Datei in `/public/animations/` abgelegt werden.
+
+Einbindung in jeder MDX-Datei:
+
+```mdx
+<LottieAnimation src="/animations/meine-animation.lottie" />
+```
+
+## Chemische Formeln
+
+KaTeX ist bereits eingerichtet. Formeln werden mit `$$...$$` (Block) oder `$...$` (inline) geschrieben:
+
+$$
+\Delta G = \Delta H - T \cdot \Delta S
+$$
