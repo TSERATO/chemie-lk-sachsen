@@ -3,3 +3,9 @@
 @import 'fumadocs-ui/css/preset.css';
 
 @source '../node_modules/fumadocs-ui/dist/**/*.js';
+
+/* fumadocs setzt font-weight: 500 für strong – zu wenig Kontrast */
+:where(.prose strong):not(:where([class~="not-prose"] *)) {
+  font-weight: 700;
+  color: var(--color-fd-foreground);
+}
